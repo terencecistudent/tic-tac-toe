@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
+    var p1Score = 0;
+    var p2Score = 0;
+    var ties = 0;
+    var turn = 0;
+
     var move = 1;
     var play = true;
+
 
     // Getting X and O's to show on table when clicked.
     $("table tr td").click(function() {
@@ -35,6 +41,7 @@ $(document).ready(function() {
             }
         }
     })
+
 
     /*-------------------------------------------function created to pick a winner-----*/
     function pickWinner() {

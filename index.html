@@ -15,37 +15,43 @@
 <body>
     <!---------------------------------------------Header-->
     <header class="container-fluid">
-        <div class="row">
+        <div class="row pb-2">
             <div class="col text-center pt-2">
-                <h1 id="title">X's and O's</h1>
+                <h1 id="title">Tic Tac Toe</h1>
             </div>
         </div>
     </header>
 
     <!---------------------------------------------Section-->
     <section class="container-fluid">
+        <!--------------------Score Board-->
+        <div class="row pt-4">
+            <div class="col text-center">
+                <button class="player-turn" id="X">Player X</button>
+                <button class="player-turn" id="O">Player O</button>
+            </div>
+        </div>
+
+        <!--------------------Table used to make grid-->
         <div class="row">
             <div class="col pt-4">
-                <table class="table table-sm">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                <table class="table">
+                    <tr class="row-1">
+                        <td class="row-box" id="1"></td>
+                        <td class="row-box" id="2"></td>
+                        <td class="row-box" id="3"></td>
+                     </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
+                    <tr class="row-2">
+                        <td class="row-box" id="4"></td>
+                        <td class="row-box" id="5"></td>
+                        <td class="row-box" id="6"></td>
+                    </tr>
+                    <tr class="row-3">
+                        <td class="row-box" id="7"></td>
+                        <td class="row-box" id="8"></td>
+                        <td class="row-box" id="9"></td>
+                    </tr>
                 </table>
             </div>
         </div>

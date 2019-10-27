@@ -18,10 +18,18 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     margin: 10px auto;
-    background-color: #272727;
+    background-color: white;
 }
 
-table tr td {
+td {
+    border: 3px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* table tr td {
     width: 600px;
     height: 90px;
     max-width: 90%;
@@ -29,7 +37,7 @@ table tr td {
     border: 1px sold black;
     font-size: 40px;
     text-align: center;
-}
+} */
 
 table tr td:hover {
     background-color: #57B9E3;
